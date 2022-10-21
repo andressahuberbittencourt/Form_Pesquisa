@@ -1,0 +1,15 @@
+h1{
+    color: purple;
+    font-size: 30px;
+    font-family: "Georgia", serif;
+}
+
+body{
+    background-color: #E6E6FA;
+    text-align: center;
+    padding: 170px;
+    font-size: 18px;
+}
+.text{
+    padding: 350px;
+}

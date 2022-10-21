@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>   
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Formulário de interesse</title>
+    </head>
+
+    <body>
+        <form action="agradecimento.html">
+            <section align="center">
+                <h1>Formulário de Interesse</h1>
+                <n>Digite seu nome:</n>
+                <input type="text" name="userName" size=30 maxlength=40 placeholder="Seu nome completo">
+                <br> </br>
+                <n>Qual sua profissão?</n>
+                <input type="text" name="userJob" size=30 maxlength=30 placeholder="Digite sua profissão">
+                <br> </br>
+                <n>Nos conte um pouco sobre você:</n><br>
+                <textarea name="userLife" cols="30" rows="4"></textarea>
+                <br> </br>
+                <n>Você se exercita regularmente?</n>
+                <input type="radio" name="exercise" value=1>Sim
+                <input type="radio" name="exercise" value=2>Não
+                <br> 
+                <p>Onde você lê seus assuntos favoritos?</p>
+                <input type="checkbox" name="book">Livros 
+                <input type="checkbox" name="Apps">Aplicativos
+                <input type="checkbox" name="News">Jornais
+                <input type="checkbox" name="Web">Sites
+                <br> </br>
+                <n>Qual gênero de filme é seu preferido?</n>
+                <select name="moviePref">
+                    <option></option>
+                    <option>Romance</option>
+                    <option>Comédia</option>
+                    <option>Ação</option>
+                    <option>Terror/Suspense</option>
+                    <option>Ficção Científica</option>
+                </select>
+                <br> </br>
+                <n>Qual sua faixa etária?</n>
+                <select name="userAge">
+                    <option></option>
+                    <option>Menos de 18 anos</option>
+                    <option>De 18 a 24 anos</option>
+                    <option>De 25 a 34 anos</option>
+                    <option>De 35 a 45 anos</option>
+                    <option>Mais de 45 anos</option>                                   
+                </select>
+                <br></br>                
+                <input type="submit" name="Enviar"> 
+                <br></br>                                        
+            </section>
+        </form>
+    </body>
+</html>
